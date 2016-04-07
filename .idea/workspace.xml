@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c43d61-1167-4bbe-bc67-d8272cf4912a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/条件判断.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loop.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="learnpython.iws" />
@@ -18,6 +18,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/learnpython$ord_chr.coverage" NAME="ord_chr Coverage Results" MODIFIED="1459999292517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnpython$loop.coverage" NAME="loop Coverage Results" MODIFIED="1460007658267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnpython$print_function_and_strings.coverage" NAME="print_function_and_strings Coverage Results" MODIFIED="1459928469834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnpython$.coverage" NAME="条件判断 Coverage Results" MODIFIED="1460006285343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learnpython$list_tuple.coverage" NAME="list_tuple Coverage Results" MODIFIED="1460005343931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -61,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="条件判断.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="条件判断.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/条件判断.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60151803">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.743833">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,6 +112,7 @@
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/list_tuple.py" />
         <option value="$PROJECT_DIR$/条件判断.py" />
+        <option value="$PROJECT_DIR$/loop.py" />
       </list>
     </option>
   </component>
@@ -176,7 +188,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.条件判断">
+  <component name="RunManager" selected="Python.loop">
     <configuration default="false" name="print_function_and_strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,6 +257,24 @@
       <module name="learnpython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/条件判断.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnpython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -442,18 +472,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.print_function_and_strings" />
       <item index="1" class="java.lang.String" itemvalue="Python.ord_chr" />
       <item index="2" class="java.lang.String" itemvalue="Python.list_tuple" />
       <item index="3" class="java.lang.String" itemvalue="Python.条件判断" />
+      <item index="4" class="java.lang.String" itemvalue="Python.loop" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.条件判断" />
-        <item index="1" class="java.lang.String" itemvalue="Python.list_tuple" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ord_chr" />
-        <item index="3" class="java.lang.String" itemvalue="Python.print_function_and_strings" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.loop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.条件判断" />
+        <item index="2" class="java.lang.String" itemvalue="Python.list_tuple" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ord_chr" />
+        <item index="4" class="java.lang.String" itemvalue="Python.print_function_and_strings" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +560,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460000763329</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add 条件判断.py">
+      <created>1460006424334</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1460006424334</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,7 +603,8 @@
     <MESSAGE value="add ord_chr.py" />
     <MESSAGE value="add 222 readme.txt" />
     <MESSAGE value="add list_tuple.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list_tuple.py" />
+    <MESSAGE value="add 条件判断.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 条件判断.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -622,8 +661,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/条件判断.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60151803">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.743833">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
